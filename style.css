@@ -4,13 +4,13 @@ padding:0;
 }
 .main{
 width:100%;
-background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../back.jpg);
+background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/back.jpg);
 background-position: center;
 background-size:cover;
 height:109vh;
 }
 .navbar{
-	width:1200px;
+	width:1500px;
 	height:75px;
 	margin:auto;
 }
@@ -25,7 +25,8 @@ height:109vh;
 	font-family:Helvetica;
 	padding-left:20px;
 	float:right;
-	padding-top:10px;
+	padding-top:25px;
+	margin-right:100px;
 	
 }
 .menu{
@@ -64,15 +65,16 @@ ul li a:hover{
 	position:relative;
 }
 .content .par{
-	padding-bottom:25px;
+	font-size:30px;
+	padding-bottom:55px;
 	font-family:Arial;
-	letter-spacing:1.2px;
-	line-height:30px;
-	padding-left:20px;
+	letter-spacing:5px;
+	line-height:60px;
+	padding-left:100px;
 }
 .content h1{
 	font-family:'Times New Roman';
-	font-size:50px;
+	font-size:70px;
 	padding-left:100px;
 	margin-top:10%;
 	letter-spacing:5px;
@@ -83,46 +85,46 @@ ul li a:hover{
 	background-color:#ff7200;
 	border:none;
 	margin-bottom:10px;
-	margin-left:20px;
+	margin-left:30px;
 	font-size:18px;
 	border-radius:10px;
 	cursor:pointer;
 	
 }
 .form{
-	width:250px;
-	height:380px;
+	width:500px;
+	height:580px;
 	background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
 	position:absolute;
-	top: -20px;
-	left:870px;
-	border-radius:10px;
-	padding:25px;
+	top: 3%;
+	left:1800px;
+	border-radius:15px;
+	padding:35px;
 	
 }
 .form h2{
-	width:220px;
+	width:450px;
 	font-family:sans-serief;
 	text-align:center;
 	color:#ff7200;
-	font-size:22px;
+	font-size:30px;
 	background-color:#fff;
-	border-radius:10px;
-	margin:2px;
-	padding:8px;
+	border-radius:20px;
+	margin:5px;
+	padding:10px;
 }
 .form input{
-	width:240px;
-	height:35px;
+	width:500px;
+	height:65px;
 	background:transparent;
 	border-bottom:1px solid #ff7200;
 	border-top:none;
 	border-right:none;
 	border-left:none;
 	color:#fff;
-	font-size:15px;
-	letter-spacing:1px;
-	margin-top:30px;
+	font-size:25px;
+	letter-spacing:2px;
+	margin-top:40px;
 	font-family:sans-serif;
 }
 .form input:focus{
@@ -134,13 +136,13 @@ ul li a:hover{
 	font-family:Arial;
 }
 .btnn{
-	width:240px;
-	height:40px;
+	width:500px;
+	height:60px;
 	background:#ff7200;
 	border:none;
-	margin-top:30px;
-	font-size:18px;
-	border-radius:10px;
+	margin-top:50px;
+	font-size:29px;
+	border-radius:30px;
 	cursor:pointer;
 	color:#fff;
 }
@@ -155,14 +157,14 @@ ul li a:hover{
 }
 .form .link{
 	font-family:Arial;
-	font-size:17px;
+	font-size:20px;
 	padding-top:20px;
 	text-align:center;
 }
 .form .link a{
 	text-decoration:none;
 	color:#ff7200;
-	
+	margin-top:30px;
 	
 	
 }
@@ -170,6 +172,7 @@ ul li a:hover{
 	padding-top:15px;
 	padding-bottom:10px;
 	text-align:center;
+	font-size:19px;
 	
 }
 .icons a{
@@ -179,9 +182,9 @@ ul li a:hover{
 }
 .icons ion-icon{
 	color:#fff;
-	font-size:30px;
-	padding-left:14px;
-	padding-top:5px;
+	font-size:50px;
+	padding-left:34px;
+	padding-top:20px;
 }
 .icon icon-icon:hover{
 	color:#ff7200;
